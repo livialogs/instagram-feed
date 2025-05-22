@@ -25,7 +25,7 @@ Este é um projeto desenvolvido como atividade prática utilizando **React**, **
 
 ```powershell
 # Clone o repositório
-git clone https://github.com/seu-usuario/insta-feed.git
+git clone https://github.com/livialogs/instagram-feed
 
 # Acesse a pasta do projeto
 cd insta-feed
@@ -42,7 +42,7 @@ http://localhost:3000
 ### 🍎 macOS / 🐧 Linux (Terminal)
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/insta-feed.git
+git clone https://github.com/livialogs/instagram-feed
 
 # Acesse a pasta do projeto
 cd insta-feed
