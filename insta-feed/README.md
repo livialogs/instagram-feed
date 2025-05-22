@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📸 InstaFeed Clone
 
-## Getting Started
+Este é um projeto desenvolvido como atividade prática utilizando **React**, **Next.js** e **Tailwind CSS**, com o objetivo de simular um feed de postagens similar ao do Instagram.
 
-First, run the development server:
+## ✅ Funcionalidades
 
-```bash
+- 🔄 **Renderização dinâmica de postagens**: Um array de objetos representa as postagens com informações como nome de usuário, avatar, imagem, número de curtidas e descrição.
+- ❤️ **Botão de curtida interativo**: O usuário pode curtir e descurtir uma postagem. O ícone muda visualmente (de contorno para preenchido em vermelho), e o número de curtidas é atualizado.
+- 👤 **Avatar com contorno em destaque**: Cada postagem exibe a foto de perfil do usuário com estilo de stories (borda circular).
+- ➕ **Botão “Follow”**: Simulação do botão de seguir ao lado do nome do usuário.
+- ⋯ **Menu de opções (três pontos)**: Ícone para representar ações extras, como no Instagram.
+- 💬 **Ícones de comentar, compartilhar e salvar**: Ícones interativos simulando o comportamento do app original.
+- 🌐 **Design responsivo e moderno** com Tailwind CSS.
+
+## 🛠 Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/) para os ícones
+
+## 🚀 Como rodar o projeto
+
+### 🪟 Windows (PowerShell)
+
+```powershell
+# Clone o repositório
+git clone https://github.com/seu-usuario/insta-feed.git
+
+# Acesse a pasta do projeto
+cd insta-feed
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Depois, acesse no navegador: 
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🍎 macOS / 🐧 Linux (Terminal)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Clone o repositório
+git clone https://github.com/seu-usuario/insta-feed.git
 
-## Learn More
+# Acesse a pasta do projeto
+cd insta-feed
 
-To learn more about Next.js, take a look at the following resources:
+# Instale as dependências
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Inicie o servidor de desenvolvimento
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Depois, acesse no navegador: 
+http://localhost:3000
 
-## Deploy on Vercel
+## 📂 Estrutura do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+insta feed/
+├── .next
+├── node_modules
+├── public
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   └── page.js          # Página principal do feed
+│   ├── components/
+│   │   └── PostItem.js      # Componente de uma postagem
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+└── vite.config.ts
