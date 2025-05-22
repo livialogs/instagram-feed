@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { Heart } from 'lucide-react';
 
 export default function PostItem({ post }) {
   const [liked, setLiked] = useState(false);
@@ -32,11 +33,13 @@ export default function PostItem({ post }) {
       />
 
       {/* Curtida */}
-      <button
-        onClick={handleLike}
-        className={`text-sm mb-1 ${liked ? 'text-red-500' : 'text-gray-700'}`}
-      >
-        {liked ? '💖 Curtido' : '🤍 Curtir'} — {likes} curtidas
+      <button onClick={handleLike} className="flex items-center space-x-2 mb-1">
+        {liked ? (
+          <Heart className="w-6 h-6 text-red-500 fill-red-500" />
+        ) : (
+          <Heart className="w-6 h-6 text-gray-700" />
+        )}
+        <span className="text-sm">{likes} curtidas</span>
       </button>
 
       <p className="text-sm">
