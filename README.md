@@ -39,7 +39,7 @@ npm run dev
 # Depois, acesse no navegador: 
 http://localhost:3000
 
-## 🍎 macOS / 🐧 Linux (Terminal)
+### 🍎 macOS / 🐧 Linux (Terminal)
 
 # Clone o repositório
 git clone https://github.com/seu-usuario/insta-feed.git
@@ -56,7 +56,7 @@ npm run dev
 # Depois, acesse no navegador: 
 http://localhost:3000
 
-## 📂 Estrutura do Projeto
+### 📂 Estrutura do Projeto
 
 insta feed/
 ├── .next
