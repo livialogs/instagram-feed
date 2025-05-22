@@ -6,7 +6,7 @@ const posts = Array.from({ length: 20 }, (_, i) => ({
   avatarUrl: `https://i.pravatar.cc/150?img=${i + 1}`,
   imageUrl: `https://picsum.photos/seed/post${i + 1}/600/400`,
   numberOfLikes: Math.floor(Math.random() * 1000),
-  description: `Essa é a descrição da postagem número ${i + 1}.`,
+  description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. ${i + 1}`,
 }));
 
 export default function Home() {
