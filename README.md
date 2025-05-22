@@ -39,22 +39,6 @@ npm run dev
 # Depois, acesse no navegador: 
 http://localhost:3000
 
-### 🍎 macOS / 🐧 Linux (Terminal)
-
-# Clone o repositório
-git clone https://github.com/livialogs/instagram-feed
-
-# Acesse a pasta do projeto
-cd insta-feed
-
-# Instale as dependências
-npm install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
-
-# Depois, acesse no navegador: 
-http://localhost:3000
 
 ### 📂 Estrutura do Projeto
 
